@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.green {
+    position: relative;
+    height: 475px;
+    width: 475px;
+    top: 10px;
+    left: 10px;
+    background-image: url("../images/gradient.jpg");
+    background-repeat: repeat;
+
+}
+#felt {
+    height: 375px;
+    width: 375px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.card1 {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 205px;
+}
+.card2 {
+    position: absolute;
+    z-index: 2;
+    top: 130px;
+    left: 205px;
+}
+.card3 {
+    position: absolute;
+    z-index: 3;
+    top: 160px;
+    left: 205px;
+}
+.card4 {
+    position: absolute;
+    z-index: 4;
+    top: 190px;
+    left: 205px;
+}
+.card5 {
+    position: absolute;
+    z-index: 5;
+    top: 210px;
+    left: 205px;
+}
