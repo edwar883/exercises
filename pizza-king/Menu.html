@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link rel="stylesheet" type="text/css" href="pizza-king-style.css">
+    <style>
+        #menu_navbar {
+            overflow: hidden;
+            margin-top: 5px;
+            background-color: #f2f2f2;
+            width: 210px;
+            float: left;
+            position: fixed;
+            text-align: center;
+            font-family: "Gill Sans", sans-serif;
+        }
+
+        .content {
+            display: inline-block;
+            float: right;
+            width: 700px;
+            margin-top: 5px;
+            text-align: left;
+            background-color: white;
+            border-radius: 10px;
+            font-family: "Gill Sans", sans-serif;
+            padding: 10px;
+        }
+
+        .veggies {
+            float: left;
+            font-size: 12px;
+        }
+
+        .meat {
+            float: right;
+            font-size: 12px;
+        }
+
+        table {
+            padding: 5px;
+            border-spacing: 10px;
+            text-align: center;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: #51101b;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #e08653;
+        }
+
+        .specials {
+            padding: 5px;
+        }
+
+        .sandwiches {
+            padding: 5px;
+        }
+
+        .wings {
+            text-indent: 50px;
+        }
+
+    </style>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+<body background="expanded-bg.jpg">
+
+<div class="wrapper">
+    <div class="header">
+        <img src="pizza king logo.png" height="120" alt="logo"/>
+        <h1>Pizza King La Crosse</h1>
+        <br>
+        <p class="header-text-one">a favorite since 1975</p>
+        <p class="header-text-two"> Call Ahead (608)788-1926 </p>
+    </div> <!-- closing header div -->
+
+    <form>
+        <input class=button type="button" value="Home" onclick="window.location.href='home.html'"/>
+        <input class=button type="button" value="About Us" onclick="window.location.href='about-us.html'"/>
+        <input class=button type="button" value="Menu" onclick="window.location.href='Menu.html'"/>
+        <input class=button type="button" value="Coupons" onclick="window.location.href='coupons.html'"/>
+        <input class=button type="button" value="Hours and Location"
+               onclick="window.location.href='hours-and-location.html'"/>
+    </form>
+
+    <nav id="menu_navbar">
+        <a href="#pizza"><p id="nav_pizza">PIZZA </p></a>
+        <a href="#subs"><p id="nav_subs">SUBS</p></a>
+        <a href="#gyros"><p id="nav_gyros">GYROS</p></a>
+        <a href="#apps"><p id="nav_apps">APPS</p></a>
+        <a href="#salads"><p id="nav_salads">SALADS</p></a>
+        <a href="#trays"><p id="nav_trays">PARTY TRAYS</p></a>
+    </nav>
+
+
+    <div class="content">
+        <h2>Menu</h2>
+        <hr>
+        <div id="pizza">
+            <h3>PIZZA</h3>
+            <h4>Create Your Own</h4>
+            <table align="center">
+                <tr>
+                    <td></td>
+                    <td>8 in</td>
+                    <td>12 in</td>
+                    <td>12 in</td>
+                    <td>14 in</td>
+                    <td>14 in</td>
+                    <td>16 in</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Thin Individual</td>
+                    <td>Thin Small</td>
+                    <td>Hand-tossed</td>
+                    <td>Thin Medium</td>
+                    <td>Hand-tossed</td>
+                    <td>Thin Large</td>
+                </tr>
+                <tr>
+                    <td>1 Topping</td>
+                    <td>$5.49</td>
+                    <td>$9.99</td>
+                    <td>$11.49</td>
+                    <td>$13.25</td>
+                    <td>$15.25</td>
+                    <td>$16.99</td>
+                </tr>
+                <tr>
+                    <td>2 Toppings</td>
+                    <td>$6.09</td>
+                    <td>$11.19</td>
+                    <td>$12.69</td>
+                    <td>$14.65</td>
+                    <td>$16.65</td>
+                    <td>$18.79</td>
+                </tr>
+                <tr>
+                    <td>Extra Toppings</td>
+                    <td>$0.60</td>
+                    <td>$1.20</td>
+                    <td>$1.20</td>
+                    <td>$1.40</td>
+                    <td>$1.40</td>
+                    <td>$1.80</td>
+                </tr>
+            </table>
+            <div class="toppings">
+                <p align="left">*counts as two toppings</p>
+            <table class="veggies">
+                <th>Vegetarian Toppings</th>
+                <tr>
+                    <td>Artichoke Hearts*</td>
+                    <td>Cheddar Cheese</td>
+                    <td>Fresh Spinach</td>
+                    <td>Provolone Cheese</td>
+                </tr>
+                <tr>
+                    <td>Banana Peppers</td>
+                    <td>Extra Mozzarella</td>
+                    <td>Fresh Tomatoes</td>
+                    <td>Pineapples</td>
+                </tr>
+                <tr>
+                    <td>Black Olives</td>
+                    <td>Fresh Green Pepper</td>
+                    <td>Green Olives</td>
+                    <td>Sauerkraut</td>
+                </tr>
+                <tr>
+                    <td>Barbecue Sauce</td>
+                    <td>Fresh Mushrooms</td>
+                    <td>Jalapeño Peppers</td>
+                    <td>Sour Cream</td>
+                </tr>
+                <tr>
+                    <td>Canned Mushrooms</td>
+                    <td>Fresh Onions</td>
+                    <td>Pesto Sauce*</td>
+                    <td>White Pizza Sauce</td>
+                </tr>
+            </table>
+            <table class="meat">
+                <th>Meat Toppings</th>
+                <tr>
+                    <td>Bacon</td>
+                    <td>Ham</td>
+                </tr>
+                <tr>
+                    <td>Beef</td>
+                    <td>Italian Sausage</td>
+                </tr>
+                <tr>
+                    <td>Canadian Bacon</td>
+                    <td>Meatballs</td>
+                </tr>
+                <tr>
+                    <td>Chicken*</td>
+                    <td>Pepperoni</td>
+                </tr>
+                <tr>
+                    <td>Crab</td>
+                    <td>Salami</td>
+                </tr>
+                <tr>
+                    <td>Gyro Meat*</td>
+                    <td></td>
+                </tr>
+            </table>
+            </div> <!-- closing toppings div -->
+
+            <h4>Specials</h4>
+            <table align="center">
+                <tr>
+                    <td>8in Individual</td>
+                    <td>12in Thin Small</td>
+                    <td>12in Hand-tossed</td>
+                    <td>14in Thin Medium</td>
+                    <td>14in Hand-tossed</td>
+                    <td>16in Thin Large</td>
+                </tr>
+                <tr>
+                    <td>$7.89</td>
+                    <td>$14.62</td>
+                    <td>$16.14</td>
+                    <td>$18.68</td>
+                    <td>$20.68</td>
+                    <td>$23.97</td>
+                </tr>
+            </table>
+            <p class="specials">
+                KING SPECIAL..........Italian Sausage Or Beef, Pepperoni, Onions, Green Peppers, Green Or
+                Black Olives, Fresh Or Canned Mushrooms, Mozzarella <br>
+                TERRY'S ITALIAN PIE..........Italian Sausage, Spinach, Fresh Mushrooms, Mozzarella, Provolone &
+                Oregano<br>
+                CHICAGO CLASSIC..........Italian Sausage, Tomatoes, Provolone, Mozzarella & Oregano<br>
+                PERFECT PINEAPPLE..........Pineapple, Canadian Bacon, Onions, Green Peppers, Mozzarella<br>
+                MILO'S MEAT PIZZA..........Pepperoni, Canadian Bacon, Beef, Italian Sausage, Bacon Pieces,
+                Mozzarella<br>
+                BACON DOUBLE CHEESEBURGER..........Double Beef, Bacon, Mozzarella, Cheddar<br>
+                TACO PIZZA..........Cheddar Cheese, Black Olives, Onions, Tomatoes, Beef, Tortilla Chips, Lettuce, Taco
+                Sauce, Mozzarella<br>
+                BUFFALO CHICKEN PIZZA..........Grilled Chicken, Frank's Red Hot, Ranch Dressing & Mozzarella <br>
+                CHICKEN BACON RANCH PIZZA..........Grilled Chicken, Bacon, Ranch Dressing & Mozzarella<br>
+                PESTO CHICKEN DELUXE..........Pesto Sauce, Grilled Chicken, Onions, Green Peppers, Fresh Mushrooms,
+                Mozzarella<br>
+                CHICKEN CLUB PIZZA..........Grilled Chicken, Bacon, Tomatoes, Mozzarella & Cheddar<br>
+                BBQ CHICKEN PIZZA..........BBQ Sauce, Grilled Chicken, Onions, Bacon, Mozzarella & Cheddar<br>
+                ANNIE'S GOURMET VEGETARIAN..........Artichoke Hearts, Onions, Spinach, Black Olives, Fresh Mushrooms,
+                Mozzarella & Seasonings<br>
+                VEGGIE CLASSIC..........Spinach, Onions, Green Peppers, Fresh Mushrooms, Mozzarella, Provolone &
+                Seasonings<br>
+                GARDEN PIZZA..........tomatoes, Onions, Black Olives, Fresh Mushrooms, Green Peppers, Mozzarella,
+                Cheddar &
+                Seasonings<br>
+                WISCONSIN WHITE PIZZA..........Artichoke Hearts, Spinach, Tomatoes, Black Olives, & Mozzarella On Our
+                White
+                Pizza Sauce<br>
+            </p>
+        </div> <!-- closing pizza div -->
+        <div id="subs"><h3>SUBS</h3>
+            <table align="center">
+                <tr>
+                    <td>6in</td>
+                    <td>9in</td>
+                    <td>12in</td>
+                    <td>24in</td>
+                </tr>
+                <tr>
+                    <td>$5.49</td>
+                    <td>$7.99</td>
+                    <td>$10.49</td>
+                    <td>$19.99</td>
+
+                </tr>
+            </table>
+            <p class="sandwiches">
+                ALLAN'S ALL AMERICAN..........ham, bologna, summer sausage, American cheese <br>
+                BEV'S BEEF SPECIAL..........lean roast beef, salami, summer sausage, Swiss and cheddar <br>
+                HAM AND SWISS..........95% lean ham <br>
+                RAY'S ROAST BEEF AND MOZZARELLA..........97% lean roast beef<br>
+                ITALIAN SUB..........salami, pepperoni, and mozzarella<br>
+                ROAST BEEF, CANADIAN BACON, and SWISS<br>
+                TURKEY BREAST, HAM, and CHEDDAR<br>
+                ROAST BEEF, HAM, TURKEY, and SWISS<br>
+                TUNA SALAD AND CHEDDAR..........our own tasty recipe<br>
+                STEVE'S FOUR CHEESE SUB..........Swiss, American, cheddar, mozzarella<br>
+                TURKEY BREAST AND SWISS..........98% lean turkey<br>
+                KEN'S PIZZA SUB..........pepperoni, provolone, pizza sauce, served warm<br>
+                REUBEN..........97% lean corned beef, Swiss, sauerkraut, 1000 Island, served warm<br>
+                KRISTY'S SUB..........roast beef, corned beef, summer sausage, Swiss<br>
+                ELIZABETH'S HAM, PEPPERONI, and MOZZARELLA SUB<br>
+                BOLOGNA, SALAMI, and AMERICAN<br>
+                HAM, TURKEY, BACON, and SWISS<br>
+                BLT..........bacon, lettuce, tomato, mayo, served warm<br>
+                SALAMI, HAM, PEPPERONI, and CHEDDAR<br>
+                MEATBALL AND MOZZARELLA..........with pizza sauce, served warm<br>
+                LEO'S GARDEN SUB..........cheddar cheese, spinach, black olives, plus your choice of vegetables<br>
+                SEAFOOD/CRAB..........a blend of Alaskan pollock and snow crab with mozzarella<br>
+                SOUTH AVENUE SUB. . salami, roast beef, ham, bologna, summer sausage, Swiss, cheddar, and American<br>
+                GRILLED CHICKEN AND SWISS..........served warm<br>
+                GRILLED CHICKEN AND BACON..........served warm<br>
+                CHICKEN BACON RANCH WHOLE WHEAT WRAP..........lettuce & tomato<br>
+                BUFFALO CHICKEN WHOLE WHEAT WRAP..........Frank's Red Hot, ranch, lettuce & tomato<br>
+                TURKEY & PROVOLONE WHOLE WHEAT WRAP..........lettuce, spinach & tomato
+            </p>
+        </div> <!-- closing subs div -->
+        <div id="gyros"><h3>GYROS</h3>
+            <p>
+                GREEK GYROS..........traditional meat slices, fresh onions, tomato, and Tzatziki cucumber sauce on pita
+                bread..........$5.49 <br>
+                GARDEN GYROS..........provolone cheese, black olives, onions, lettuce, tomato and Tzatziki cucumber
+                sauce on pita bread..........$4.99 <br>
+                ALSO AVAILABLE..........beef, chicken, double meat, lettuce, tomato, black olives, extra sauce on the
+                side, cheese
+            </p>
+        </div> <!-- closing gyros div -->
+        <div id="apps"><h3>APPS</h3>
+            <P>
+                GARLIC BREAD..........$3.25 <br>
+                GARLIC CHEESE BREAD..........$4.25 <br>
+                ITALIAN CHEESE BREAD..........Garlic Butter, Cheese, Pizza Sauce..........$4.89 <BR>
+                SPINACH CHEESE BREAD..........Garlic Butter, Cheese, Spinach..........$5.25 <BR>
+                PESTO CHEESE BREAD..........Garlic Butter, Pesto Sauce, Cheese, Pizza Sauce on the side..........$6.25
+                <BR>
+                HOT BUFFALO and ITALIAN STYLE HOT WINGS
+            <p class="wings"> 10 wings and 1 dipping sauce..........$8.99</p>
+            <p class="wings"> 20 wings and 2 dipping sauce..........$17.49</p>
+            <p>DIPPING SAUCES..........Ranch, Blue Cheese, BBQ Sauce, Honey Mustard, Frank's Red Hot</P>
+        </div> <!-- closing apps div -->
+        <div id="salads"><h3>SALADS</h3>
+            <p>
+                Ham, Turkey & Cheddar Salad..........$5.99 <br>
+                Ham, Pepperoni & Mozzarella Salad..........$5.99 <br>
+                Garden Salad With Cheddar Cheese..........$4.99 <br>
+                Seafood/Crab & Mozzarella Salad..........$5.99 <br>
+                Grilled Chicken & Swiss Salad..........$6.49 <br>
+            <p class="wings" align="center"> Salads made with a blend of lettuce & fresh spinach with your choice of veggies & dressing:
+                <br>
+                Tomatoes, Green Peppers, Italian dressing, Jalapeños, Black Olives, Blue Cheese, Pickles, 1000 Island
+                dressing, Fat-Free Ranch dressing,
+                Onions, Ranch, French dressing, Banana Peppers</p>
+        </div> <!-- closing salad div -->
+        <div id="trays"><h3>PARTY TRAYS</h3>
+            <p align="center">Choose your favorite cold sub, add your choice of veggies & dressings, and we will turn it into a party
+                tray.
+                Sliced every 2", with frilled toothpicks. <br>
+                4 ft. feeds 8-12, 6 ft. feeds 12-18, 8 ft. feeds 16-20. </p>
+            <table align="center">
+                <tr>
+                    <td>4ft</td>
+                    <td>6ft</td>
+                    <td>8ft</td>
+                </tr>
+                <tr>
+                    <td>$38.99</td>
+                    <td>$57.99</td>
+                    <td>$76.99</td>
+
+                </tr>
+            </table>
+            <p align="center">ADVANCE NOTICE REQUESTED</p>
+        </div> <!-- closing party tray div -->
+    </div> <!-- closing content div -->
+
+</div> <!-- closing wrapper div -->
+
+
+</body>
+</html>

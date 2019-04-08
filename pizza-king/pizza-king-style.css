@@ -1,0 +1,90 @@
+body {
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 940px;
+}
+
+h1 {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    line-height: 25%;
+    font-weight: normal;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: normal;
+
+}
+
+h3 {
+    padding: 10px;
+    font-size: 36px;
+    font-weight: normal;
+}
+h4 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+h5 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.header {
+    background-color: white;
+    padding: 10px;
+    height: 190px;
+    overflow: hidden;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.header-text-one {
+    float: left;
+    padding-left: 195px;
+    padding-bottom: 10px;
+    line-height: 10%;
+}
+.header-text-two {
+    float: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    line-height: 10%;
+
+}
+
+input {
+    line-height: 30px;
+    width: 184.5px;
+    margin-top: 5px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 100%;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    font-family: "Gill Sans",sans-serif;
+}
+
+input.button:hover {
+    color: #e08653;
+    background: #51101b;
+    text-decoration: underline;
+}
+
+footer {
+    align-content: center;
+    background-color: white;
+    font-family: "Gill Sans", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
